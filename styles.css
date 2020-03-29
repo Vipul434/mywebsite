@@ -1,0 +1,98 @@
+img {
+  border: 1px solid white; }
+
+@media (max-width: 767px) {
+  img {
+    width: 40%;
+    display: block;
+    margin: auto; }
+
+  .add-margin {
+    text-align: center; } }
+@media (min-width: 768px) {
+  img {
+    width: 40%;
+    display: block;
+    margin: auto; }
+
+  .add-margin {
+    text-align: center; } }
+@media (min-width: 992px) {
+  img {
+    width: 80%;
+    display: block;
+    margin: auto; }
+
+  .add-margin {
+    text-align: left; } }
+@media (min-width: 1200px) {
+  img {
+    width: 70%;
+    display: block;
+    margin: auto; }
+
+  .add-margin {
+    text-align: left; } }
+#title {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: cursive;}
+
+#sub-title {
+  text-align: center;
+  font-family: cursive;}
+
+nav {
+  margin-top: 50px;
+  text-align: center;
+font-family: cursive; }
+
+nav a:hover {
+  text-decoration: none;
+font-family: cursive;}
+
+.btn {
+  margin: 10px; }
+
+.add-margin {
+  margin-top: 50px;
+font-family: cursive; }
+
+section {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+footer {
+  text-align: center; }
+
+.social-icons {
+  float: right;
+  width: 50px;
+  height: 50px;
+  margin: 10px; }
+
+footer {
+  text-align: center; }
+
+.strip{
+    height: 50px;
+  }
+#line{
+  border: 1px solid black;
+  }
+.pl{
+  text-align: justify;
+  font-family: cursive;
+}
+.zoom {
+
+  transition: transform .3s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+}
+/*# sourceMappingURL=styles.css.map */
